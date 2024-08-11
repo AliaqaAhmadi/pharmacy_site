@@ -1,0 +1,218 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: rgb(199, 199, 216);
+    display: flex;
+    justify-content: center;
+}
+.header_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.header_logo{
+    position: absolute;
+    left: 10px;
+}
+.header_logo img{
+    border-radius: 50%;
+}
+.header_item{
+    list-style-type: none;
+}
+.header_item a{
+    text-decoration: none;
+    color: black;
+}
+.header_item a:hover{
+    color: hotpink;
+}
+.hero_section{
+    height: 600px;
+    background-image: url(./imageB.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero_section .hero_content{
+text-align: center;
+    padding-top: 200px;
+    color: rgb(226, 15, 15);
+
+}
+.hero_content h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-weight: 500px;
+
+}
+.hero_content .description p{
+    font-size: 20px;
+    max-width: 400px;
+    margin: auto;
+    font-weight: 500px;
+}
+.about_section{
+    height: 600px;
+
+}
+.description_header{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.card img{
+    width: 100%;
+    height: 40%;
+    padding-bottom: 20px;
+}
+.cards .card p{
+    margin-top: 20px;
+}
+.cards .card{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(210, 210, 223);
+    overflow: hidden;
+    box-shadow: 5px 0px 20px grey;
+}
+.mission__card{
+    margin-right: 70px;
+}
+.card img{
+    width:100%;
+    height: 40%;
+    
+}
+.cards .card p{
+    margin-top: 20px;
+    
+}
+.services__section{
+    background-color: rgb(81, 187, 77);
+    padding-top: 30px;
+ 
+}
+.service__container{
+    display: flex;
+}
+.service{
+    display:flex;
+    margin: 10px;
+}
+.service img{
+    height:150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.service__description {
+   padding-left:20px;
+   min-width: 180px;
+}
+.service__description h2{
+    padding-bottom: 5px;
+}
+.service__title{
+    text-align: center;
+    margin: 40px;
+    font-size: 3rem;
+}
+
+.product__section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(223, 223, 223);
+    
+}
+.product__container{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: 15px;
+ padding: 10px;
+
+}
+.product{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 5px 0px 20px gray;
+}
+.product img{
+    width:100%;
+    height: 200px;
+    
+    border-radius: 10px;
+}
+.product__description{
+    padding: 20px ;
+}
+
+.product__description h4{
+    margin: 10px 0px;
+}
+.product__description .btn{
+    margin-top: 10px;
+    border: 0px;
+    border-radius: 20px;
+    padding: 6px;
+    background-color: rgb(230, 22, 39);
+    color: white;
+}
+.product__description p{
+      color:green(218, 36, 121);
+      margin: 10px 0px 0px;
+      font-weight: bold;
+}
+.footer__section{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(72, 29, 226);
+    padding-bottom: 20px;
+}
+.address__section{
+    margin-bottom: 20px;
+    color: white;
+   
+}
+
+.social__section{
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer__section h1{
+     padding: 20px;
+}
+.social__section a{
+    text-decoration: none;
+    font-size:30px;
+    padding: 7px;
+    color: rgb(242, 245, 242);
+}
+.social__section a:hover{
+    color: rgb(211, 53, 79);
+}
+.address__section span {
+       margin-left: 10px;
+       color: rgb(255, 255, 255);
+       font-size: 15px;
+}
+.address__section i{
+     color: rgb(223, 31, 79);
+     font-size: 25px;
+     
+}
+
